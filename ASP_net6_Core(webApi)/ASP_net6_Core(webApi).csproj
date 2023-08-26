@@ -15,7 +15,7 @@
     <Folder Include="wwwroot\CSS\" />
     <Folder Include="wwwroot\JS\" />
     <Folder Include="wwwroot\IMG\" />
-    <Folder Include="wwwroot\forDOWNLOAD\" />
+    <Folder Include="wwwroot\filesForDownload\" />
   </ItemGroup>
 
 </Project>
