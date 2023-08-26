@@ -11,4 +11,11 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\CSS\" />
+    <Folder Include="wwwroot\JS\" />
+    <Folder Include="wwwroot\IMG\" />
+    <Folder Include="wwwroot\forDOWNLOAD\" />
+  </ItemGroup>
+
 </Project>

@@ -22,9 +22,10 @@ namespace ASP_net6_Core_webApi_
 
             //стандартное добавление конфигурации
             builder.Services.Configure<HomeOptions>(Configuration);
+            
 
             //если надо добавить какой-то определенный параметр, а не весь файл целиком:
-            builder.Services.Configure<Address>(Configuration.GetSection("Address"));
+            //builder.Services.Configure<Address>(Configuration.GetSection("Address"));
 
             //если надо изменить какой-то параметр в ходе выполнения:
             //builder.Services.Configure<HomeOptions>(j => j.Heating = Heating.Electric);
